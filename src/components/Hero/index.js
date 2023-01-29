@@ -1,5 +1,5 @@
 import React from "react";
-import me from "../../assets/images/me-right.png";
+import me from "../../assets/images/me-left1.jpg";
 import Button from "../UI/Button";
 import "./style.css";
 
@@ -29,7 +29,12 @@ const Hero = (props) => {
         </div>
         <div data-aos="fade-left">
           <div className="meRightImgContainer">
-            <img src={me} alt="" />
+            <img src={me} alt="" 
+            style={{
+              widht:"120px",
+              height:"445px",
+            }}
+            />
           </div>
         </div>
       </div>

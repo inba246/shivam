@@ -3,7 +3,7 @@ import SmallHeading from "../UI/SmallHeading";
 import MediumHeading from "../UI/MediumHeading";
 import Button from "../UI/Button";
 import Tile from "../UI/Tile";
-import me from "../../assets/images/me-left.png";
+import me from "../../assets/images/me-left1.jpg";
 
 import "./style.css";
 
@@ -22,7 +22,13 @@ const Qualification = (props) => {
         style={{ margin: "50px 0" }}
       >
         <div data-aos="fade-up-right">
-          <img src={me} alt="" />
+          <img src={me} alt=""
+          style={{
+            widht:"267px",
+            height:"445px",
+            
+          }}
+          />
           <div
             style={{
               background: "#fff",

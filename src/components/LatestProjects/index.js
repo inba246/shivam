@@ -3,7 +3,7 @@ import Card from "../UI/Card";
 import SmallHeading from "../UI/SmallHeading";
 import MediumHeading from "../UI/MediumHeading";
 import Button from "../UI/Button";
-import latestProject from "../../assets/projects/project-001.PNG";
+import latestProject from "../../assets/projects/projt-001.png";
 
 import "./style.css";
 
