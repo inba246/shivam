@@ -14,6 +14,8 @@ import "aos/dist/aos.css";
  * @function App
  **/
 
+//sample code
+
 const App = (props) => {
   useEffect(() => {
     AOS.init({
